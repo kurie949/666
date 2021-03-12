@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>web期末作业</title>
+	</head>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			width: 1200px;
+			margin: auto;
+			background-color:whitesmoke;
+		}
+
+		header {
+			height: 70px;
+			color: #E2E1E4;
+			background-color: #000000;
+			opacity: 0.7;
+			text-align: center;
+			opacity: ;
+		}
+		
+
+		h1,
+		#aaa {
+			display: inline-block;
+		}
+
+		h1 {
+			color: #eed054;
+			margin: 5px;
+			vertical-align: middle;
+		}
+
+		#aaa li {
+			display: inline-block;
+			font-size: 20px;
+			margin: 10px;
+			padding: 5px;
+		}
+
+		#aaa li:hover {
+				border: 1px solid ;
+				color: aqua;
+				border-radius: 10px;
+		}
+
+		main {
+			height: 2000px;
+		}
+
+		article {
+			width: 60%;
+			height: 800px;
+			display: inline-block;
+			background: white;
+		}
+
+		#A {
+			width: 20em;
+			background-color: whitesmoke;
+			color: black;
+			padding-left: 10px;
+			margin-left: 7px;
+			display: block;
+			border-left:8px solid aqua;
+			border-bottom-right-radius: 100px;
+			background:gray;
+			letter-spacing: 5px;
+			box-shadow: 5px 5px 5px -2px #00FFFF;
+		}
+
+		#A:hover {
+			color: gold;
+			opacity: 0.7;
+			transform: translate(50px);
+			transition: 1.5s;
+			cursor:progress;
+		}
+
+		#bbb,
+		#ccc {
+			margin: 10px;
+			color: black;
+		}
+
+		#ccc {
+			width: 15em;
+			height: 17em;
+			display: inline-block;
+
+		}
+
+		#ddd {
+			width: 60%;
+			height: 17em;
+			display: inline-block;
+			vertical-align: top;
+			margin: 10px;
+			float: left;
+			background-color: #E2E1E4;
+		}
+
+		aside {
+			width: 39.6%;
+			height: 800px;
+			/* background-color: white; */
+			display: inline-block;
+			float: right;
+		}
+
+		h4 {
+			margin-left: 10px;
+			font-size: 20px;
+		}
+
+		aside #sidebox {
+			background: snow;
+			height: 240px;
+			margin: 10px;
+		}
+
+		input {
+			width: 60%;
+			margin: 10px;
+			height: 20px;
+			display: inline-block;
+			margin-top: 15px;
+		}
+
+		aside b {
+			color: orangered;
+			font-size: 20px;
+			text-align: center;
+		}
+		aside b:hover{
+			opacity: 0.5;
+			cursor: pointer;
+		}
+
+		#eee li {
+			display: inline-block;
+			font-size: 15px;
+			margin: 5px;
+			padding: 5px;
+			text-align: center;
+		}
+
+		#fff li {
+			width: 26em;
+			height: 3em;
+			margin: 5px;
+			
+		}
+		#fff{
+			overflow-y: hidden;
+		}
+
+		#fff li:hover {
+			color: red;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		#eee li:hover {
+			background: white;
+			text-decoration: underline;
+			color: #fcd217;
+			transform: scale(1.3);
+			cursor: pointer;
+		}
+
+		#hhh li {
+			display: inline-block;
+			font-size: 15px;
+			margin: 5px;
+			padding: 5px;
+			color: #122735;
+		}
+
+		#hhh li:hover {
+			text-decoration: underline;
+			color: #fcd217;
+			transform: scale(1.3);
+			cursor: pointer;
+		}
+
+		#kkk,
+		#lll {
+			display: inline-block;
+			vertical-align: top;
+			cursor: pointer;
+		}
+
+		#lll p:hover,
+		#lll h5:hover {
+			color: palevioletred;
+			text-decoration: underline;
+		}
+		#box{
+			background: snow;
+			height: 230px;
+			margin: 10px;
+			margin-left: 2px;
+		}
+		#box>p{
+			margin-left: 5px;
+			font-size: 18px;
+			font-weight: 900;
+			}
+		#box>div{
+				width: 100%;
+				height: 40%;
+				margin: 4px;
+			}
+		.n{
+			font-size: 14px;
+			font-weight: 900;
+		}
+		.c{
+			width: 67px;
+			height: 67px;
+			display:inline-block ;
+			border: 2px solid goldenrod;
+			border-top-right-radius: 30%;
+			border-bottom-left-radius: 30%;
+			background-size: cover;
+			overflow: hidden;
+		}
+		.d{
+			width: 65%;
+			height: 70%;
+			display: inline-block;
+		}
+		.c:hover{
+			transform: scale(1.15);
+			transition: 1s;
+		}
+		.d:hover{
+			text-decoration: underline;
+			color: red;
+		}
+
+		#iii {
+			height: 1200px;
+		}
+
+		#Q,#W,#E,#R,#T,#Y {
+			width: 28%;
+			height: 30%;
+			margin: 10px;
+			display: inline-block;
+			vertical-align: top;
+			overflow: hidden;
+			box-shadow: 8px 5px 5px -1px gray;
+			border: 5px ridge whitesmoke;
+		}
+		#Q:hover,#W:hover,#E:hover,#R:hover,#T:hover,#Y:hover{
+			transform: translateY(-10px) ;
+			transition: 1s;
+			
+		}
+		#iii p {
+			background: red;
+			text-align: center;
+		}
+		#iii img:hover{
+			opacity: 0.7;
+			background: yellow;
+			cursor: pointer;
+		}
+
+		#iii p:hover {
+			text-decoration: underline;
+		}
+		
+		.P{
+			font-size: 30px;
+			padding-left: 10px;
+			width: 4em;
+			margin-left: 10px;
+			display: block;
+			border-left:8px solid aqua;
+			border-bottom-right-radius: 100px;
+			background: gray;
+			letter-spacing: 5px;
+			box-shadow: 5px 5px 5px -2px #00FFFF;
+		}
+		
+		.H {
+			font-size: 20px;
+			padding-left: 10px;
+			width: 8.4em;
+			margin-left: 10px;
+			display: block;
+			border-left:8px solid aqua;
+			border-bottom-right-radius: 100px;
+			background:gray;
+			letter-spacing: 5px;
+			box-shadow: 5px 5px 5px -2px #00FFFF;
+		}
+		.H:hover,.P:hover{
+			opacity: 0.7;
+			transform: translate(50px) scale(1.1);
+			
+			transition: 1.5s;
+			cursor:progress;
+			color: gold;
+			
+		}
+		#U,#I,#O{
+			width: 30%;
+			height: 30%;
+			margin: 10px;
+			display: inline-block;
+			vertical-align: top;
+			overflow: hidden;
+		}
+
+		#zzz {
+			width: 100%;
+			height: 240px;
+			background:lightblue;
+			color: white;
+		}
+
+		#zzz input {
+			width: 60%;
+		}
+
+		#vvv {
+			display: block;
+			margin-left: 50px;
+			height: 30px;
+			cursor: pointer;
+		}
+		#vvv:hover{
+			opacity: 0.7;
+		}
+		#ttt {
+			color: black;
+			display: inline-block;
+		}
+
+		#uuu {
+			display: inline-block;
+			float: right;
+			background: red;
+			width: 20%;
+			height: 100px;
+			text-align: center;
+			color: black;
+			margin-top: 10px;
+			margin-right: 20px;
+		}
+		#uuu:hover{
+			transform: scale(1.2);
+			transition: 1s;
+		}
+
+		#uuu,#pp{
+			display: inline-block;
+		}
+		#pp{
+			width: 14em;
+			text-align: center;
+			height: 1.5em;
+			background-color: #000000;
+			display: none;
+		}
+	</style>
+	<body>
+		<header>
+			<h1><img src="img/1.jpg" width="160px"></h1>
+			<div id="aaa">
+				<ul>
+					<li>游戏资料</li>
+					<li>内容中心</li>
+					<li>赛事中心</li>
+					<li>百态王者</li>
+					<li>社区活动</li>
+					<li>玩家支持</li>
+					<li>IP新游</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<article>
+				<section>
+					<div id="A">
+					<h3>新皮肤爆料——天狼星孙斌</h3>
+					</div>
+					<div id="bbb">
+						<img src="img/0.jpg" width="100%">
+					</div>
+					<div id="ccc">
+						<h2>背景故事--天狼星</h2>
+						<p>二十年前灾难中失去父母的小男孩，从小和邻居姐姐相依为命，长大后成为了一名物流送货员。
+							他性格羞怯，不像邻居姐姐那样潇洒自信，更不像她拥有造景超能力——总能在黑夜中创造守护城市的奇迹。但他对生活充满希望与勇气，日复一日地训练属于自己的“超能力”——将城市每条街道每个门牌号印在脑中，每次都能秒速规划出最完美的快递......</p>
+
+					</div>
+					<div id="ddd">
+						<video src="./mp4/1.mp4" width="100%" controls muted="muted" poster="img/3.jpg"></video>
+					</div>
+
+				</section>
+			</article>
+			<aside>
+				<input type="text" name="user" id="" value="" placeholder="输入你想查询的英雄" /> <b class="111">搜索</b>
+				<div id="sidebox">
+					<div id="eee">
+						<ul>
+							<li>最新</li>
+							<li>英雄</li>
+							<li>新手</li>
+							<li>同人</li>
+							<li>官网</li>
+						</ul>
+					</div>
+					<div id="fff">
+						<li>你是赛评师：DYG零封成都AG斩获总冠军，你觉得他们...</li>
+						<li>恭喜DYG夺冠！赛事细节分析</li>
+						<li>斗鱼王者荣耀赛事快报：恭喜DYG夺得2020KPL秋季赛总...</li>
+						<li>召唤师！还记得那些年我们听过的《迎难而上》吗？</li>
+					</div>
+				</div>
+				<div id="sidebox">
+					<div id="ggg">
+						<img src="img/6.png" width="150px">
+					</div>
+					<div id="hhh">
+						<ul>
+							<li>KPL</li>
+							<li>冠军杯</li>
+							<li>K甲联赛</li>
+							<li>城市赛</li>
+							<li>高校联赛</li>
+							<li>TGA</li>
+						</ul>
+					</div>
+					<div id="jjj">
+						<div id="kkk"><img src="img/8.png" width="130px"></div>
+						<div id="lll">
+							<h5>【战报】王者荣耀4月第二周C组：公孙离岑中归月...... </h5>
+							<p>【战报】王者荣耀4月第三周：杨玉环大杀....</p>
+							<p>【战报】TGA王者荣耀3月月赛：关羽无人...</p>
+							<p>【战报】王者荣耀4月第一周：团灭翻盘...</p>
+							<p>【战报】聚星之夜明星熠熠，同台争锋...</p>
+							<p>【战报】巅峰对决，见证大师登顶！王者...</p>
+							<p>【战报】全国大赛：5局比赛3次逆转，西藏...</p>
+							<p>【世冠总决赛预报】TS vs DYG，金凤凰....</p>
+						</div>
+					</div>
+					<div id="box">
+						<p>孙斌的英雄关系</p>
+						<div >
+							<p class="n">最佳拍档</p>
+							<div class="c"><img src="img/17.png" ></div>
+							<div class="c"><img src="img/18.png" ></div>
+							<p class="d">孙斌可以通过大招沉默给马可提供良好输出环境,也可大招沉默敌人帮助高渐离进团输出。</p>
+						</div>
+						<div >
+							<p class="n">压制英雄</p>
+							<div class="c"><img src="img/23.jpg" ></div>
+							<div class="c"><img src="img/20.jpg" ></div>
+							<p class="d">孙斌使用大招造成沉默限制诸葛亮技能，使得队友逃脱，可以阻止李白的离开，使得李白留在人群中。</p>
+						</div>
+						
+					</div>
+				</div>
+			</aside>
+			<div id="iii">
+			<div class="P">
+				<h6>英雄介绍</h6>
+			</div>
+				<div id="Q">
+					<img src="img/10.jpg" width="100%" height="80%">
+					<p>貂蝉：容貌倾城，身段柔美。莲花是貂蝉的象征，作为一个法师，貂蝉在团战中能发挥重要的作用。貂蝉在对局中可以粘人，可以进行持续输出，法...</p>
+				</div>
+				<div id="W">
+					<img src="img/11.jpg" width="100%" height="80%">
+					<p>鲁班：俗称王者提款机。作为一个超远程射手，输出攻击能力自然十分不凡，强大的群体伤害，在团战之中更是无往不利，但但因为不具备任何位移...</p>
+				</div>
+				<div id="E">
+					<img src="img/5.jpg" width="100%" height="80%">
+					<p>墨子：法师战士型英雄角色，原型是墨家学派创始人、战国思想家墨子。作为一名战士型英雄，墨子的攻击能力非常高，技能效果也不错，它的控制...</p>
+				</div>
+				<div id="R">
+					<img src="img/7.jpg" width="100%" height="80%">
+					<p>李信：最强的高低保安。属于长城守卫军的一员。进可天神下凡一锤五，退可千里偷水晶。但需要灵活运用与切换统御形态与狂暴形态，才会有非常...</p>
+				</div>
+				<div id="T">
+					<img src="img/8.jpg" width="100%" height="80%">
+					<p>马超：神威大将军。原型是三国时期蜀汉名将。一技能优先给残血小兵，让二段伤害打到人身上。二技能放别人背后/放脚下，因为大招收回来的机制...</p>
+				</div>
+				<div id="Y">
+					<img src="img/9.jpg" width="100%" height="80%">
+					<p>瑶：萌妹子爱玩的英雄之一。阿瑶是个和森林有关的女孩。阿瑶的语言是露水似的，在夜晚和黑暗中生存。白天来临后闪烁出晶莹之光，随后消逝...</p>
+				</div>
+			<div class="H">
+			<h7>精彩击杀视频</h7>
+			</div>
+				<div id="U">
+					<video src="./mp4/2.mp4" width="100%" preload="auto" controls muted="muted" poster="img/12.jpg"></video>
+					<p>李白五杀视觉盛宴</p>
+					<p>青莲仙骨绝云烟，不落人间三尺地。剑来 ！</p>
+				</div>
+				<div id="I">
+					<video src="./mp4/3.mp4" width="100%" controls preload="auto" muted="muted" poster="img/13.jpg"></video>
+					<p id="p">为思念之人，寻最美之花。</p>
+					<p>恋しい人のために、最も美しい花を</p>
+				</div>
+				<div id="O">
+					<video src="./mp4/4.mp4" width="89%" controls muted="muted" preload="auto" poster="img/14.jpg"></video>
+					<p>我是这个世界的梦魇，为战而生。</p>
+					<p>终是吕布着了魔，从此只为一人活。</p>
+			</div>
+			</div>
+		</main>
+		<div id="zzz">
+			<div id="ttt" >
+				<p>更多详情请登录查看</p>
+				用户名：<input type="text" name="" id="" value="" placeholder="手机号/QQ账号" /><br>
+				密 码:<input type="password" name="" id="" value="" placeholder="密码不少于8位数" maxlength="11" /><br>
+				确认密码：<input type="password" name="" id="" value="" placeholder="密码不少于8位数"/>
+				<input type="button" name="" id="vvv" value="登录" height="100px" onmouseover="aaa()" onmouseout="bbb()" />
+			</div>
+			<div id="uuu">
+				<img src="img/16.png" width="100%" height="200px">
+				<p>扫一扫，进入王者营地</p>
+			</div>
+			<div id="pp" >
+			请确认你的账号信息是否正确
+			</div>
+		</div>
+		<script type="text/javascript">
+			function aaa() {
+				document.getElementById("pp").style.display='block'
+			}
+			function bbb() {
+				document.getElementById("pp").style.display='none'
+			}
+		</script>
+	</body>
+</html>
